@@ -10,6 +10,8 @@ Les commentaires sont évidement les bienvenus ;)
 
 Bon... normalement, à ce stade, vous venez de terminer l'installation de base de __Manjaro Gnome__ ;)
 
+> __Remarque__ : hormis quelques points propres à Gnome, cette doc est valable pour d'autres variantes de Manjaro.
+
 ## Outils de base
 
 On va installer ce package, qui sera nottament  nécessaire dans la construction de paquets `AUR`.
