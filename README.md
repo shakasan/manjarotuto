@@ -752,6 +752,8 @@ trizen -S kicad kicad-library kicad-library-3d librecad
 
 ## Jeux
 
+### Jeux - Utilitaires
+
 Depuis les dépôts
 
 ```shell
@@ -762,6 +764,20 @@ Pour les joueurs de WoW
 
 ```shell
 trizen -S wowup
+```
+
+### Quelques Jeux
+
+Depuis les dépôts
+
+```shell
+trizen -S 0ad
+```
+
+Depuis `Flatpak`
+
+```shell
+flatpak install flathub org.srb2.SRB2
 ```
 
 ## Gadgets
