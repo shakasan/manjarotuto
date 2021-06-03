@@ -617,7 +617,7 @@ trizen -S gmusicbrowser radiotray-ng gyazo green-recorder xnviewmp-system-libs
 Depuis `Flatpak`
 
 ```shell
-flatpak install flathub com.spotify.Client
+flatpak install flathub com.spotify.Client com.github.marinm.songrec
 ```
 
 ## Rhythmbox + plugins
