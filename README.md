@@ -605,7 +605,7 @@ sudo -H pip3 install tldr cheat md2pdf
 Depuis des dépôts
 
 ```shell
-trizen -S quodlibet vlc mpv xsane shotwell simplescreenrecorder lib32-simplescreenrecorder asunder audacious audacious-plugins audacity avidemux-cli avidemux-qt blender cheese cuetools darktable peek shotcut flacon gpick gpicview-gtk3 guvcview handbrake handbrake-cli hugin inkscape kodi krita krita-plugin-gmic milkytracker mkvtoolnix-cli mkvtoolnix-gui moc openshot picard pitivi rawtherapee shntool smplayer smplayer-{skins,themes} soundconverter id3v2 youtube-dl mac libdvdcss celluloid deadbeef vidcutter font-manager
+trizen -S quodlibet vlc mpv xsane shotwell simplescreenrecorder lib32-simplescreenrecorder asunder audacious audacious-plugins audacity avidemux-cli avidemux-qt blender cheese cuetools darktable peek shotcut flacon gpick gpicview-gtk3 guvcview handbrake handbrake-cli hugin inkscape kodi krita krita-plugin-gmic milkytracker mkvtoolnix-cli mkvtoolnix-gui moc openshot picard pitivi rawtherapee shntool smplayer smplayer-{skins,themes} soundconverter id3v2 youtube-dl mac libdvdcss celluloid deadbeef vidcutter font-manager blanket
 ```
 
 Depuis `AUR`
