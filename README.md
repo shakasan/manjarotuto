@@ -196,7 +196,7 @@ On installe le package contenant les sources du kernel indispensable pour pouvoi
 > __Rermaque__ : les sources à installer doivent bien entenu "matcher" avec le noyau installé
 
 ```shell
-trizen -S linux59-headers
+trizen -S linux512-headers
 ```
 
 # Package Managers additionnels
@@ -1491,7 +1491,19 @@ trizen -S vagrant
 ### VirtualBox
 
 ```shell
-trizen -S virtualbox
+trizen -S virtualbox virtualbox-host-dkms
+```
+
+Et en fonction de votre Kernel
+
+```shell
+trizen -S linux512-headers linux512-virtualbox-host-modules
+```
+
+Suivi d'un reboot ou bien
+
+```shell
+sudo modprobe vboxdrv
 ```
 
 ### Wordpress
