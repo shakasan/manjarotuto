@@ -1452,11 +1452,40 @@ trizen -S dbeaver
 trizen -S docker docker-compose
 ```
 
-> **Remarqe** : Si vous avez une erreur concernat un module python déjà présent, désinstallez-le via pip3
+> **Remarque** : si vous avez une erreur concernat un module python déjà présent, désinstallez-le via pip3
 >
 > ```shell
 > sudo -H pip3 uninstall docopt
 > ```
+
+On créer un groupe `docker` et on y ajoute son user
+
+> **Remarque** : après cette étape, il est fortement recommandé de logout/login complètement
+
+```shell
+sudo groupadd
+sudo usermod -aG docker <votre_user>
+```
+
+On check si `docker` tourne
+
+```shell
+sudo systemctl status docker
+```
+
+Et éventuellement on lance `docker` et on l'ajoute au boot si nécessaire
+
+```shell
+sudo systemctl start docker
+sudo systemctl enable docker
+```
+
+### Portainer CE
+
+```shell
+docker volume create portainer_data
+docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce
+```
 
 ### git
 
