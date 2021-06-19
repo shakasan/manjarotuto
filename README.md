@@ -573,7 +573,7 @@ L'installation de "base" étant terminée, passons à l'ajout des applications.
 Depuis les dépôts
 
 ```shell
-trizen -S detox qt5-styleplugins clamav clamtk grub-customizer acetoneiso2 alltray aria2 htop bmon screen bleachbit copyq dialog dosbox fcrackzip fdupes figlet guake idle3-tools mupdf mupdf-tools pdfcrack pdfgrep psensor pv rarcrack screenfetch synapse terminator tilda pandoc stress odt2txt strace tilix etcher lm_sensors
+trizen -S detox qt5-styleplugins clamav clamtk grub-customizer acetoneiso2 alltray aria2 htop bmon screen bleachbit copyq dialog dosbox fcrackzip fdupes figlet guake idle3-tools mupdf mupdf-tools pdfcrack pdfgrep psensor pv rarcrack screenfetch synapse terminator tilda pandoc stress odt2txt strace tilix etcher lm_sensors pdfmixtool
 ```
 
 Depuis `AUR`
