@@ -285,11 +285,13 @@ Dans cette section, on va s'occuper de notre matos.
 
 ## Dongle USB Bluetooth basé sur Realtek RTL8761B
 
-Installer le module depuis `AUR`, suivi d'un branchement/débranchement du dongle ;)
-
-```shell
-trizen -S rtl8761b-fw
-```
+> **Remarque (Juillet 2021)** : cette partie n'est plus nécessaire, rtl8761b ayant été ajouté dans linux-firmware dans les dépôts officiels
+>
+> Installer le module depuis `AUR`, suivi d'un branchement/débranchement du dongle ;)
+>
+>```shell
+>trizen -S rtl8761b-fw
+>```
 
 ## Support LDAC dans Pulseaudio pour les Casques Bluetooth
 
