@@ -575,13 +575,13 @@ L'installation de "base" étant terminée, passons à l'ajout des applications.
 Depuis les dépôts
 
 ```shell
-trizen -S detox qt5-styleplugins clamav clamtk grub-customizer acetoneiso2 alltray aria2 htop bmon screen bleachbit copyq dialog dosbox fcrackzip fdupes figlet guake idle3-tools mupdf mupdf-tools pdfcrack pdfgrep psensor pv rarcrack screenfetch synapse terminator tilda pandoc stress odt2txt strace tilix etcher lm_sensors pdfmixtool
+trizen -S detox qt5-styleplugins clamav clamtk acetoneiso2 alltray aria2 htop bmon screen bleachbit copyq dialog dosbox fcrackzip fdupes figlet guake idle3-tools mupdf mupdf-tools pdfcrack pdfgrep psensor pv screenfetch synapse terminator tilda pandoc stress odt2txt strace tilix etcher lm_sensors pdfmixtool
 ```
 
 Depuis `AUR`
 
 ```shell
-trizen -S tmsu xcalib qtqr woeusb multibootusb-git spectre-meltdown-checker inxi cryptkeeper s-tui linpack nano-syntax-highlighting-git kdocker
+trizen -S tmsu xcalib qtqr woeusb multibootusb-git spectre-meltdown-checker inxi cryptkeeper s-tui linpack nano-syntax-highlighting-git kdocker rarcrack
 ```
 
 Depuis `Flatpak`
@@ -607,13 +607,13 @@ sudo -H pip3 install tldr cheat md2pdf
 Depuis des dépôts
 
 ```shell
-trizen -S quodlibet vlc mpv xsane shotwell simplescreenrecorder lib32-simplescreenrecorder asunder audacious audacious-plugins audacity avidemux-cli avidemux-qt blender cheese cuetools darktable peek shotcut flacon gpick gpicview-gtk3 guvcview handbrake handbrake-cli hugin inkscape kodi krita krita-plugin-gmic milkytracker mkvtoolnix-cli mkvtoolnix-gui moc openshot picard pitivi rawtherapee shntool smplayer smplayer-{skins,themes} soundconverter id3v2 youtube-dl mac libdvdcss celluloid deadbeef vidcutter font-manager blanket
+trizen -S quodlibet vlc mpv xsane shotwell simplescreenrecorder lib32-simplescreenrecorder asunder audacious audacious-plugins audacity avidemux-cli avidemux-qt blender cheese cuetools darktable peek shotcut flacon gpick gpicview guvcview handbrake handbrake-cli hugin inkscape kodi krita krita-plugin-gmic milkytracker mkvtoolnix-cli mkvtoolnix-gui moc openshot picard pitivi rawtherapee shntool smplayer smplayer-{skins,themes} soundconverter id3v2 youtube-dl mac libdvdcss celluloid vidcutter font-manager blanket
 ```
 
 Depuis `AUR`
 
 ```shell
-trizen -S gmusicbrowser radiotray-ng gyazo green-recorder xnviewmp-system-libs
+trizen -S gmusicbrowser radiotray-ng gyazo green-recorder xnviewmp-system-libs deadbeef
 ```
 
 Depuis `Flatpak`
@@ -679,13 +679,13 @@ trizen -S libreoffice-still libreoffice-still-fr dia scribus
 Depuis les dépôts
 
 ```shell
-trizen -S firefox firefox-i18n-fr chromium franz-bin slack-desktop thunderbird thunderbird-i18n-fr nextcloud-client digikam discord filezilla google-chrome hexchat icedtea-web links mumble teamspeak3 mypaint opera opera-ffmpeg-codecs pidgin pidgin-{libnotify,otr} purple-{facebook,plugin-pack,skypeweb} quiterss syncthing syncthing-gtk telegram-{desktop,qt,purple} vivaldi vivaldi-ffmpeg-codecs skypeforlinux-stable zoom liferea rambox-bin cawbird signal-desktop caprine
+trizen -S firefox firefox-i18n-fr chromium franz-manjaro slack-desktop thunderbird thunderbird-i18n-fr nextcloud-client digikam discord filezilla google-chrome hexchat icedtea-web links mumble teamspeak3 mypaint opera opera-ffmpeg-codecs pidgin pidgin-{libnotify,otr} purple-{facebook,plugin-pack,skypeweb} quiterss syncthing syncthing-gtk telegram-{desktop,qt} vivaldi vivaldi-ffmpeg-codecs skypeforlinux-stable zoom liferea rambox-bin cawbird signal-desktop caprine
 ```
 
 Depuis `AUR`
 
 ```shell
-trizen -S whalebird-bin tootle birdtray megasync-bin newsflash-git
+trizen -S whalebird-bin tootle birdtray megasync-bin newsflash-git telegram-purple
 ```
 
 Depuis `Flatpak`
