@@ -575,7 +575,7 @@ L'installation de "base" étant terminée, passons à l'ajout des applications.
 Depuis les dépôts
 
 ```shell
-trizen -S detox qt5-styleplugins clamav clamtk acetoneiso2 alltray aria2 htop bmon screen bleachbit copyq dialog dosbox fcrackzip fdupes figlet guake idle3-tools mupdf mupdf-tools pdfcrack pdfgrep psensor pv screenfetch synapse terminator tilda pandoc stress odt2txt strace tilix etcher lm_sensors pdfmixtool
+trizen -S detox qt5-styleplugins clamav clamtk acetoneiso2 alltray aria2 htop bmon screen bleachbit copyq dialog dosbox fcrackzip fdupes figlet guake idle3-tools mupdf mupdf-tools pdfcrack pdfgrep psensor pv screenfetch neofetch synapse terminator tilda pandoc stress odt2txt strace tilix etcher lm_sensors pdfmixtool
 ```
 
 Depuis `AUR`
@@ -948,10 +948,10 @@ Des couleurs et un affichage plus complet de la commande `ls`
 alias ll='ls -lah --color'
 ```
 
-On affiche `screenfetch` à l'ouverture d'un terminal
+On affiche `neofetch` à l'ouverture d'un terminal
 
 ```shell
-screenfetch -t
+neofetch
 ```
 
 On configure `nano` comme éditeur cli par défaut
