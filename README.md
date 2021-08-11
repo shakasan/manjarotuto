@@ -581,7 +581,7 @@ trizen -S detox qt5-styleplugins clamav clamtk acetoneiso2 alltray aria2 htop bm
 Depuis `AUR`
 
 ```shell
-trizen -S tmsu xcalib qtqr woeusb multibootusb-git spectre-meltdown-checker inxi cryptkeeper s-tui linpack nano-syntax-highlighting-git kdocker rarcrack
+trizen -S tmsu xcalib qtqr woeusb spectre-meltdown-checker inxi cryptkeeper s-tui linpack nano-syntax-highlighting-git kdocker rarcrack
 ```
 
 Depuis `Flatpak`
@@ -679,7 +679,7 @@ trizen -S libreoffice-still libreoffice-still-fr dia scribus
 Depuis les dépôts
 
 ```shell
-trizen -S firefox firefox-i18n-fr chromium franz-manjaro slack-desktop thunderbird thunderbird-i18n-fr nextcloud-client digikam discord filezilla google-chrome hexchat icedtea-web links mumble teamspeak3 mypaint opera opera-ffmpeg-codecs pidgin pidgin-{libnotify,otr} purple-{facebook,plugin-pack,skypeweb} quiterss syncthing syncthing-gtk telegram-{desktop,qt} vivaldi vivaldi-ffmpeg-codecs skypeforlinux-stable zoom liferea rambox-bin cawbird signal-desktop caprine
+trizen -S firefox firefox-i18n-fr chromium slack-desktop thunderbird thunderbird-i18n-fr nextcloud-client digikam discord filezilla google-chrome hexchat icedtea-web links mumble teamspeak3 mypaint opera opera-ffmpeg-codecs pidgin pidgin-{libnotify,otr} purple-{facebook,plugin-pack,skypeweb} quiterss syncthing syncthing-gtk telegram-{desktop,qt} vivaldi vivaldi-ffmpeg-codecs skypeforlinux-stable zoom liferea rambox-bin cawbird signal-desktop caprine
 ```
 
 Depuis `AUR`
