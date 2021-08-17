@@ -1439,7 +1439,7 @@ trizen -S ansible ansible-lint
 ### Boostnote
 
 ```shell
-trizen -S boost-note-bin
+trizen -S boost-note-local-bin
 ```
 
 ### DBeaver
