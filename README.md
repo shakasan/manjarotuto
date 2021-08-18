@@ -655,7 +655,7 @@ trizen -S gimp-{plugin-resynthesizer,plugin-refocusit,plugin-pandora,plugin-laye
 Depuis les dépôts
 
 ```shell
-trizen -S calibre sigil fbreader gnome-epub-thumbnailer bookworm
+trizen -S calibre sigil fbreader gnome-epub-thumbnailer bookworm foliate
 ```
 
 ## Graveur CD/DVD/BR
