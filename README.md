@@ -1430,12 +1430,6 @@ trizen -S bluej
 trizen -S ansible ansible-lint
 ```
 
-> **Remarque** : si vous avez une erreur concernat un module python déjà présent, désinstallez-le via pip3
->
->```shell
->sudo -H pip3 uninstall cffi pycparser
->```
-
 ### Boostnote
 
 ```shell
@@ -1453,12 +1447,6 @@ trizen -S dbeaver
 ```shell
 trizen -S docker docker-compose
 ```
-
-> **Remarque** : si vous avez une erreur concernat un module python déjà présent, désinstallez-le via pip3
->
-> ```shell
-> sudo -H pip3 uninstall docopt
-> ```
 
 On créer un groupe `docker` et on y ajoute son user
 
