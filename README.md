@@ -650,6 +650,20 @@ Depuis `AUR`
 trizen -S gimp-{plugin-resynthesizer,plugin-refocusit,plugin-pandora,plugin-layers-to-divs,plugin-export-layers}
 ```
 
+## OBS
+
+Depuis les dépôts
+
+```shell
+trizen -S obs-studio
+```
+
+Et quelques plugins depuis AUR
+
+```shell
+trizen -S obs-motion-effect-git obs-websocket obs-cli
+```
+
 ## eBook
 
 Depuis les dépôts
