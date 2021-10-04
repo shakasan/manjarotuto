@@ -1450,6 +1450,12 @@ trizen -S ansible ansible-lint
 trizen -S boost-note-local-bin
 ```
 
+### Joplin
+
+```shell
+trizen -S joplin-desktop
+```
+
 ### DBeaver
 
 ```shell
