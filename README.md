@@ -713,7 +713,7 @@ flatpak install flathub com.microsoft.Teams
 Depuis les dépôts
 
 ```shell
-trizen -S aircrack-ng ngrep networkmanager-openvpn dsniff wireshark-qt wireshark-cli iftop iptraf-ng nethogs whois keychain x11-ssh-askpass nmap bind-tools bluez vinagre remmina
+trizen -S aircrack-ng ngrep networkmanager-openvpn dsniff wireshark-qt wireshark-cli iftop iptraf-ng nethogs whois keychain x11-ssh-askpass nmap bind-tools bluez vinagre remmina traceroute
 ```
 
 Depuis `AUR`
