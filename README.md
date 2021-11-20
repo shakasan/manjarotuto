@@ -22,7 +22,7 @@ trizen -S base-devel
 
 ## Changement de Shell
 
-Je sais...certains mes diront pourquoi `bash` au lieu de `zsh` ? Question de goût ;)
+Je sais...certains mes diront pourquoi `bash` au lieu de `zsh` ? Bah ... question de goût ;)
 
 ```shell
 chsh -s /bin/bash
