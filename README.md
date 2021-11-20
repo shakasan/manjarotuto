@@ -1,6 +1,6 @@
 ![manjaro_logo_text.png](pics/manjaro_logo_text.png)
 
-Ce tutorial est à la base une doc personnelle.
+Ce tuto est à la base une doc personnelle.
 
 Néanmoins, j'ai tenté autant que possible de la rédiger afin qu'elle soit utilisable par d'autres.
 
