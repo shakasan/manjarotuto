@@ -14,10 +14,10 @@ Bon... normalement, à ce stade, vous venez de terminer l'installation de base d
 
 ## Outils de base
 
-On va installer ce package, qui sera nottament  nécessaire dans la construction de paquets `AUR`.
+On va installer ce package, qui sera nottament nécessaire dans la construction de paquets `AUR`.
 
 ```shell
-trizen -S base-devel
+sudo pacman -S base-devel
 ```
 
 ## Changement de Shell
@@ -48,7 +48,7 @@ Server = http://archlinux.cu.be/$repo/os/$arch
 
 Passer via le gestionaire de paquet de Manjaro
 
-![mirrors.jpeg](/manjaro/pamac_mirrors.jpeg)
+![mirrors.jpeg](/pics/pamac_mirrors.jpeg)
 
 ## Ajout de dépôts additionnels dans Pacman
 
