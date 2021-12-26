@@ -215,6 +215,10 @@ Bon... même si vous avez installé `trizen` ou `yaourt`, si vous voulez intégr
 
 > __Remarque__ : les paquets `AUR` viennent en droite ligne de `AUR` (mouarf) et contrairement à `Flatpak` ou `Snap`, peuvent entrer en conflit avec les paquets de Manjaro. Je vous conseille de ne cocher `Vérifier les mises à jour` si et seulement si vous vous sentez l'âme de gérer les éventuels conflits. Sinon, effectuez les mises à jour via `trizen` seulement quand c'est nécessaire et pour un paquet en particulier.
 
+> __Remarque 2__ : AUR (Arch User Repository) est, comme son nom l'indique, prévu pour Arch. Et bien que Manjaro soit basée sur Arch, elle fonctionne avec ses propres dépots (instable, test et stable), lesquelles ajoutent une "couche de stabilité" par rapport à Arch, l'instable de Manjaro correspondant au stable de Arch et les releases stables de Manjaro se faisant sous forme de "Snapshots" à intervals courts (excepté les MAJ de sécu qui peuvent être poussées en priorité). Ce qui du coup, peut entrainer des soucis (c'est rare, mais ça arrive) avec la mise à jours de certains packages AUR, lesquels reposent sur une version stable de Arch mais pas encore disponible dans le dépot stable de Manjaro. La plupart du temps, ça se passe très bien, et dans le cas pré-cité, cela se résume à une erreur de construction du paquet (donc l'ancienne version reste installée) et à simplement attendre le suivant snapshot stable de manjaro.
+
+> __Remarque 2 bis__ : et donc dans un idéal "safe", je recommanderai de ne PAS cocher l'option __Vérifier les mises à jours__, afin d'éviter qu'une telle erreur se produise lors d'une mise à jours complète du système.
+
 ![pamac_aur.jpeg](/pics/pamac_aur.jpeg)
 
 ## Flatpak
@@ -1014,11 +1018,11 @@ Cet exemple décrit un RAID 0 (logiciel, via mdadm) de 2 disques : /dev/sdb et /
 >
 > __Doc Arch__ : je vous invite à checker la doc de Arch pour plus de détails : [Arch Wiki : RAID](https://wiki.archlinux.org/index.php/RAID)
 >
-> __Remarque 2__ : sans que ça devienne une doc sur le raid, je rappel que le Raid 0, c'est plus de performance mais aucune sécurité des données.
+> __Remarque 2__ : sans que ça devienne une doc sur le raid, je rappel que le Raid 0, c'est plus de performance mais aucune sécurité des données. Dans mon cas, il s'agit de mes jeux Steam, au pire, je dois simplement les re-downloader ;-)
 
 ### Préparation des disques
 
-Pour éviter certains soucis un peu étranges... je vous conseil de faire un petit nettroyage des 2 disques
+Pour éviter certains soucis un peu étranges... je vous conseil de faire un petit nettoyage des 2 disques
 
 > __Remarque__ : suivant la taille des disques et le type (HDD / SSD), cela peut prendre un certain temps
 
