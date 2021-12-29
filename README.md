@@ -255,6 +255,18 @@ Ce fait via l'activation des paquets `Snap` dans `Pamac`.
 trizen -S snapd
 ```
 
+## AppImage
+
+Les `AppImage` ne sont pris en charge par `pamac` et bien qu'il existe un `AppImage` hub, cela ne repose pas sur un store ou des dépôts comme `Snap` ou `Flatpak`.
+
+Du coup, ce petit utilitaire permet d'installer une `AppImage` dans `~/Applications` (default) et d'ajouter un raccourci dans le menu de façon simple.
+
+On install donc
+
+```shell
+trizen -S appimagelauncher
+```
+
 ## NodeJS et NPM
 
 On installe NodeJS + le package manager NodeJS
