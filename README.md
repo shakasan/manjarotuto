@@ -485,27 +485,6 @@ KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="096e", ATTRS{idProduct
 LABEL="u2f_end"
 ```
 
-### Ledger Nano S
-
-Et toujours idem... ^^ pour le Ledger Nano S
-
-> __Remarque__ : si vous installez Ledger Live (vois après), les règles `udev` sont installées automatiquement
-
-On créer le fichier `/etc/udev/rules.d/20-hw1.rules` et on ajoute
-
-```shell
-SUBSYSTEMS=="usb", ATTRS{idVendor}=="2581", ATTRS{idProduct}=="1b7c", MODE="0660", TAG+="uaccess", TAG+="udev-acl"
-SUBSYSTEMS=="usb", ATTRS{idVendor}=="2581", ATTRS{idProduct}=="2b7c", MODE="0660", TAG+="uaccess", TAG+="udev-acl"
-SUBSYSTEMS=="usb", ATTRS{idVendor}=="2581", ATTRS{idProduct}=="3b7c", MODE="0660", TAG+="uaccess", TAG+="udev-acl"
-SUBSYSTEMS=="usb", ATTRS{idVendor}=="2581", ATTRS{idProduct}=="4b7c", MODE="0660", TAG+="uaccess", TAG+="udev-acl"
-SUBSYSTEMS=="usb", ATTRS{idVendor}=="2581", ATTRS{idProduct}=="1807", MODE="0660", TAG+="uaccess", TAG+="udev-acl"
-SUBSYSTEMS=="usb", ATTRS{idVendor}=="2581", ATTRS{idProduct}=="1808", MODE="0660", TAG+="uaccess", TAG+="udev-acl"
-SUBSYSTEMS=="usb", ATTRS{idVendor}=="2c97", ATTRS{idProduct}=="0000", MODE="0660", TAG+="uaccess", TAG+="udev-acl"
-SUBSYSTEMS=="usb", ATTRS{idVendor}=="2c97", ATTRS{idProduct}=="0001", MODE="0660", TAG+="uaccess", TAG+="udev-acl”
-#KERNEL=="hidraw*", SUBSYSTEM=="hidraw", MODE="0660", GROUP="plugdev", ATTRS{idVendor}=="2c97"
-#KERNEL=="hidraw*", SUBSYSTEM=="hidraw", MODE="0660", GROUP="plugdev", ATTRS{idVendor}=="2581"
-```
-
 ### Recharger les règles udev
 
 Afin que ces règles `udev` soit prises en compte directement
@@ -550,9 +529,11 @@ Nécessaire pour les services fédéraux, etc en lignes en Belgique, le middlewa
 trizen -S eid-mw
 ```
 
-### Ledger-Live pour Nano S
+### Ledger-Live pour Nano S/X
 
-On installe la nouvelle application de gestion/config du wallet hardware Ledger Nano S.
+On installe la nouvelle application de gestion/config du wallet hardware Ledger Nano S/X.
+
+#### Méthode 1
 
 > __Remarque__ : c'est valable pour n'importe quel dépôt tier ou `AUR`, il faut __toujours__ vérifier minitieusement ce que vous installez. Et dans le cas de `AUR`, vérifier les sources. Il s'agit d'un Wallet matériel pour Crypto-monnaies, c'est d'autant plus sensible !!
 
@@ -560,6 +541,30 @@ Depuis `AUR`
 
 ```shell
 trizen -S aur/ledger-udev aur/ledger-live-bin
+```
+
+Ou depuis le dépot `community`
+
+```shell
+trizen -S ledger-live-bin
+```
+
+#### Méthode 2 (officielle)
+
+On télécharge l'`AppImage` officielle via cette URL : https://download-live.ledger.com/releases/latest/download/linux et on l'install via `AppImageLauncher`.
+
+> __Remarque__ : je vous conseille de TOUJOURS télécharger ET vérifier le contenu d'un script AVANT de l'exécuter, comme c'est le cas dans la commande ci-dessous.
+
+On install ensuite les règles `udev` depuis le dépôt github officiel de Ledger comme ceci :
+
+```shell
+wget -q -O - https://raw.githubusercontent.com/LedgerHQ/udev-rules/master/add_udev_rules.sh | sudo bash
+```
+
+Ou bien depuis `AUR` :
+
+```shell
+trizen -S aur/ledger-udev
 ```
 
 ### Corsair
