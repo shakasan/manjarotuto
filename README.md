@@ -602,7 +602,7 @@ trizen -S detox qt5-styleplugins clamav clamtk acetoneiso2 alltray aria2 htop bm
 Depuis `AUR`
 
 ```shell
-trizen -S tmsu xcalib qtqr woeusb spectre-meltdown-checker inxi cryptkeeper s-tui linpack nano-syntax-highlighting-git kdocker rarcrack
+trizen -S tmsu xcalib qtqr woeusb spectre-meltdown-checker inxi cryptkeeper s-tui linpack nano-syntax-highlighting-git kdocker
 ```
 
 Depuis `Flatpak`
@@ -628,7 +628,7 @@ sudo -H pip3 install tldr cheat md2pdf
 Depuis des dépôts
 
 ```shell
-trizen -S quodlibet vlc mpv xsane shotwell simplescreenrecorder lib32-simplescreenrecorder asunder audacious audacious-plugins audacity avidemux-cli avidemux-qt blender cheese cuetools darktable peek shotcut flacon gpick gpicview guvcview handbrake handbrake-cli hugin inkscape kodi krita krita-plugin-gmic milkytracker mkvtoolnix-cli mkvtoolnix-gui moc openshot picard pitivi rawtherapee shntool smplayer smplayer-{skins,themes} soundconverter id3v2 youtube-dl mac libdvdcss celluloid vidcutter font-manager blanket
+trizen -S quodlibet vlc mpv xsane shotwell simplescreenrecorder lib32-simplescreenrecorder asunder audacious audacious-plugins audacity avidemux-cli avidemux-qt blender cheese cuetools darktable peek shotcut flacon gpick gpicview guvcview handbrake handbrake-cli hugin inkscape kodi krita milkytracker mkvtoolnix-cli mkvtoolnix-gui moc openshot picard pitivi rawtherapee shntool smplayer smplayer-{skins,themes} soundconverter id3v2 youtube-dl mac libdvdcss celluloid vidcutter font-manager blanket
 ```
 
 Depuis `AUR`
@@ -1474,7 +1474,7 @@ trizen -S boost-note-local-bin
 ### Joplin
 
 ```shell
-trizen -S joplin-desktop
+trizen -S joplin-appimage
 ```
 
 ### DBeaver
