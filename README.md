@@ -797,7 +797,11 @@ Depuis les dépôts
 trizen -S joyutils lutris gnutls lib32-gnutls
 ```
 
-Pour les joueurs de WoW
+#### Pour les joueurs de WoW
+
+Via une AppImage : https://github.com/WowUp/WowUp/releases
+
+Ou un paquet AUR qui va build wowup :
 
 ```shell
 trizen -S wowup
